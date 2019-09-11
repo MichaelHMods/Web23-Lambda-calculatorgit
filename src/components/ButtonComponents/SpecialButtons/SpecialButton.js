@@ -1,9 +1,14 @@
 import React from "react";
 
-const SpecialButton = () => {
+const SpecialButton = (props) => {
+  console.log(props.banana)
+  
+
   return (
     <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
+     <button>{props.index}</button>
     </>
   );
 };
+
+export default SpecialButton;
