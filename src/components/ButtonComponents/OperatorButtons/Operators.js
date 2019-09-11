@@ -1,4 +1,6 @@
 import React from "react";
+import { operators } from '../../../../src/data';
+import OperatorButtons from './OperatorButton';
 
 //import any components needed
 
@@ -14,3 +16,5 @@ const Operators = () => {
     </div>
   );
 };
+
+export default Operators;
