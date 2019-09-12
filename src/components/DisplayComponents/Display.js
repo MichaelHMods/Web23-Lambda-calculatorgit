@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 
 
-const Display = (props) => {
-  return <div className="display">{props.number}</div>;
+
+
+const Display = () => {
+  const [display, setDisplay] = useState(0)
+  console.log(display)
+  return <div className="display">{display} </div>;
 };
 
 export default Display;

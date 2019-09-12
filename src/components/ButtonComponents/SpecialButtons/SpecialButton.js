@@ -1,13 +1,14 @@
 import React from "react";
+import wrapper from "./style";
 
 const SpecialButton = (props) => {
   console.log(props.banana)
   
-
+ 
   return (
-    <>
-     <button>{props.index}</button>
-    </>
+    <wrapper>
+     <button className="specialButtons">{props.banana}</button>
+     </wrapper>
   );
 };
 
